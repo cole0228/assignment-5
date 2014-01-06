@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image:url(../images/texture.jpg);
+	background-size: 50%;
+	min-width: 768px;
+	font-size: 100%;
+	font-family:Tahoma, Geneva, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	padding: 9rem;
+}
+
+img {
+	width: 100%;
+}
+
+.baseline {
+	background-image:url(../images/baseline.svg);
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1.9rem;
+}
+/* ----------------------------------------------------- Masthead */
+
+.placeholder {
+	width: 4rem;
+	position: fixed;
+}
+
+.logo {
+	width: 18rem;
+	position: relative;
+	margin-top: .5rem;
+}
+
+.masthead {
+	height: 19rem;
+	background-color: rgba(51,0,0,.8);
+	border-bottom: .25rem solid;
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+
+#billboard h1 {
+	width: 40rem;
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #2f7b80;
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+	margin-left: 11rem;
+	position: relative;
+	border: .25rem solid;
+	border-radius: 1.5rem;
+	border-color: #000;
+}
+
+/* ----------------------------------------------------- Boxes and Wrappers */
+
+.box {
+	background-color: #300;
+	border: .25rem solid;
+	border-color: #000;
+	border-radius: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 2.7rem;
+ }
+
+.box2 {
+	background-color: #2f7b80;
+	border: .25rem solid;
+	border-color: #000;
+	border-radius: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 2.7rem;
+ }
+ 
+.wrapper {
+	 background-color: rgba(51,51,51,.5);
+	 color: #CCC;
+	 overflow: auto;
+	 padding: 0 4.5rem 0;
+ }
+
+ /* ----------------------------------------------------- Artwork */
+  
+#content1,
+#content2,
+#content3,
+#content4 {
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: .5rem 0;
+}
+
+p {
+	color: #CCC;
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+	margin: .5rem 6rem .5rem 6rem;
+}
+  
+.artwork {
+	clear: both;
+	margin: 0 0 3rem 0;
+	overflow: hidden;
+}
+
+.artwork:last-child {
+	margin: 0;
+}
+
+.artwork img {
+	width: 38%;
+	float: left;
+	margin: 1.4rem 1.5rem 0 6rem;
+	
+}
+
+.artwork h2 {
+	color: #FFF;
+	margin: 2.5rem 0 .1rem 6rem;
+}
+  
+.artwork2 {
+	clear: both;
+	margin: 0 0 3rem 0;
+	overflow: hidden;
+}
+
+.artwork2:last-child {
+	margin: 0;
+}
+
+.artwork2 img {
+	width: 38%;
+	float: right;
+	margin: .5rem 6rem 1.5rem 1.5rem;
+	
+}
+
+.artwork2 h2 {
+	color: #FFF;
+	margin: 2rem 0 .12rem 6rem;
+}
+
+/* ----------------------------------------------------- Footer */
+ 
+ul {
+	padding: 5%;
+	overflow:hidden;
+}
+
+li {
+	width: 8rem;
+	margin-right: 5%;
+	float: left;
+}
+
+li:last-child {
+	margin-right: 0;
+}
+
+.bottom {
+	background-color: rgba(51,0,0,.8);
+	width: 100%;
+	border-top: .25rem solid;
+}
+
+.bottom p {
+	font-size: .75rem;
+	color: #FFF;
+	text-align: left;
+	margin-left: 5rem;
+	padding-top: 1.75rem;
+	padding-bottom: 1.75rem;
+}
